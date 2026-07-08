@@ -10,7 +10,7 @@ const OPTIONS = [
   {
     value: "pickup",
     label: "Local pickup",
-    sub: "Oak Point, TX — ready in 24 hours",
+    sub: "Manchester — ready in 24 hours",
     price: "Free",
   },
 ];

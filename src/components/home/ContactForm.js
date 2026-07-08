@@ -13,8 +13,8 @@ const CONTACT_CARDS = [
   {
     icon: PhoneOutlineIcon,
     label: "Call us",
-    value: "(214) 865-8471",
-    href: "tel:2148658471",
+    value: "0161 496 0472",
+    href: "tel:01614960472",
   },
   {
     icon: EnvelopeOutlineIcon,
@@ -25,7 +25,7 @@ const CONTACT_CARDS = [
   {
     icon: MapPinOutlineIcon,
     label: "Kitchen & pickup",
-    value: "Oak Point, TX 75068",
+    value: "Manchester, M1 1AE",
     href: null,
   },
 ];

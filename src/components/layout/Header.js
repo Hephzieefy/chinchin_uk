@@ -18,8 +18,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-cocoa-950 text-cream-100">
       <div className="flex flex-wrap items-center justify-between gap-2 bg-cocoa-800 px-[5vw] py-2 text-[12.5px] tracking-[0.02em] text-cream-50">
         <div className="flex flex-wrap gap-[22px]">
-          <a href="tel:2148658471" className="no-underline hover:text-gold-300">
-            <span aria-hidden="true">📞</span> (214) 865-8471
+          <a href="tel:01614960472" className="no-underline hover:text-gold-300">
+            <span aria-hidden="true">📞</span> 0161 496 0472
           </a>
           <a
             href="mailto:sales@ewachinchin.com"
@@ -28,7 +28,7 @@ export default function Header() {
             <span aria-hidden="true">✉️</span> sales@ewachinchin.com
           </a>
         </div>
-        <span>Hand-twisted in Oak Point, Texas</span>
+        <span>Hand-twisted in Manchester, UK</span>
       </div>
 
       <nav className="flex items-center justify-between px-[5vw] py-3.5" aria-label="Primary">

@@ -26,7 +26,7 @@ const spaceMono = Space_Mono({
 export const metadata = {
   title: "Ẹ̀wà Chin Chin — Hand-twisted, sun-toasted",
   description:
-    "Hand-twisted, nutmeg-spiced chin chin fried in small batches in Oak Point, Texas, and shipped fresh across the US.",
+    "Hand-twisted, nutmeg-spiced chin chin fried in small batches in Manchester, UK, and shipped fresh across the UK.",
 };
 
 export const viewport = {

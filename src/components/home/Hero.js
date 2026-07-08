@@ -16,7 +16,7 @@ export default function Hero({ fromPrice }) {
           </h1>
           <p className="my-[22px] max-w-[46ch] text-[1.14rem] leading-[1.55] text-ink-soft">
             Every twist is rolled and fried in small batches, just like a Lagos kitchen
-            on a Sunday — now shipped fresh from Oak Point, Texas to your door.
+            on a Sunday — now shipped fresh from Manchester, UK to your door.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button href="/#shop" variant="primary">

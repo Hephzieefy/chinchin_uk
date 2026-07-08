@@ -12,8 +12,8 @@ const ABOUT_POINTS = [
     body: "just flour, butter, sugar, nutmeg, and toasted coconut.",
   },
   {
-    title: "Shipped across the US",
-    body: "sealed fresh within 48 hours of frying, or pick up locally in Oak Point.",
+    title: "Shipped across the UK",
+    body: "sealed fresh within 48 hours of frying, or pick up locally in Manchester.",
   },
 ];
 
@@ -28,7 +28,7 @@ export default function About() {
         <div>
           <Eyebrow>Our story</Eyebrow>
           <h2 className="text-[clamp(1.9rem,3vw,2.6rem)] text-cocoa-950">
-            A family recipe, fried fresh in Texas
+            A family recipe, fried fresh in Manchester
           </h2>
           <p className="mt-3.5 text-[1.05rem] leading-[1.6] text-ink-soft">
             Ẹ̀wà Chin Chin started in a home kitchen with one recipe passed down for

@@ -19,8 +19,8 @@ const INITIAL_SHIPPING = {
   sLast: "",
   sStreet: "",
   sCity: "",
-  sState: "",
-  sZip: "",
+  sCounty: "",
+  sPostcode: "",
   sPhone: "",
 };
 
@@ -64,8 +64,8 @@ export default function CheckoutPage() {
       if (!shippingValues.sLast.trim()) nextErrors.sLast = "Enter your last name.";
       if (!shippingValues.sStreet.trim()) nextErrors.sStreet = "Enter a street address.";
       if (!shippingValues.sCity.trim()) nextErrors.sCity = "Enter a city.";
-      if (!shippingValues.sState) nextErrors.sState = "Select a state.";
-      if (!shippingValues.sZip.trim()) nextErrors.sZip = "Enter a ZIP code.";
+      if (!shippingValues.sCounty) nextErrors.sCounty = "Select a county.";
+      if (!shippingValues.sPostcode.trim()) nextErrors.sPostcode = "Enter a postcode.";
       if (!shippingValues.sPhone.trim()) nextErrors.sPhone = "Enter a phone number.";
     }
 

@@ -24,7 +24,7 @@ export default function ConfirmationPage() {
 
   const fulfillmentMessage =
     lastOrder.fulfillment === "pickup"
-      ? "Your order will be ready for pickup in Oak Point, TX within 24 hours."
+      ? "Your order will be ready for pickup in Manchester within 24 hours."
       : "Your order will ship within 3–5 business days.";
 
   return (

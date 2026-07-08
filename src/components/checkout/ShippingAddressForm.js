@@ -1,7 +1,14 @@
 import Input from "@/components/shared/Input";
 import Select from "@/components/shared/Select";
 
-const STATES = ["TX", "CA", "NY", "FL", "IL", "GA", "Other"];
+const COUNTIES = [
+  "Greater Manchester",
+  "Lancashire",
+  "Merseyside",
+  "West Yorkshire",
+  "London",
+  "Other",
+];
 
 export default function ShippingAddressForm({ values, errors, onChange }) {
   function handleChange(field) {
@@ -52,17 +59,17 @@ export default function ShippingAddressForm({ values, errors, onChange }) {
           error={errors.sCity}
         />
         <Select
-          id="sState"
-          label="State"
+          id="sCounty"
+          label="County"
           required
-          value={values.sState}
-          onChange={handleChange("sState")}
-          error={errors.sState}
+          value={values.sCounty}
+          onChange={handleChange("sCounty")}
+          error={errors.sCounty}
         >
           <option value="">Select...</option>
-          {STATES.map((state) => (
-            <option key={state} value={state}>
-              {state}
+          {COUNTIES.map((county) => (
+            <option key={county} value={county}>
+              {county}
             </option>
           ))}
         </Select>
@@ -70,12 +77,13 @@ export default function ShippingAddressForm({ values, errors, onChange }) {
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <Input
-          id="sZip"
-          label="ZIP code"
+          id="sPostcode"
+          label="Postcode"
           required
-          value={values.sZip}
-          onChange={handleChange("sZip")}
-          error={errors.sZip}
+          placeholder="M1 1AE"
+          value={values.sPostcode}
+          onChange={handleChange("sPostcode")}
+          error={errors.sPostcode}
         />
         <Input
           id="sPhone"

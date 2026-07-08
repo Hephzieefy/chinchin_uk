@@ -7,8 +7,8 @@ export default function Footer() {
         <div>
           <h4 className="mb-3.5 text-base text-cream-100">Ẹ̀wà Chin Chin Co.</h4>
           <p className="text-[0.92rem] leading-[1.6]">
-            Hand-twisted, nutmeg-spiced chin chin fried in small batches in Oak Point,
-            Texas, and shipped fresh across the US.
+            Hand-twisted, nutmeg-spiced chin chin fried in small batches in Manchester,
+            UK, and shipped fresh across the UK.
           </p>
         </div>
 
@@ -36,9 +36,9 @@ export default function Footer() {
         <div>
           <h4 className="mb-3.5 text-base text-cream-100">Contact</h4>
           <ul className="m-0 grid list-none gap-[9px] p-0 text-[0.92rem]">
-            <li>(214) 865-8471</li>
+            <li>0161 496 0472</li>
             <li>sales@ewachinchin.com</li>
-            <li>Oak Point, TX 75068</li>
+            <li>Manchester, M1 1AE</li>
           </ul>
         </div>
       </div>
